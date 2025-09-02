@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('img/library pic.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Glassmorphic Login Box */
+.login-container {
+  background: rgba(255, 255, 255, 0.15); /* Softer transparency */
+  backdrop-filter: blur(12px); /* Stronger blur for glass effect */
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  color: #fefefe;
+}
+
+/* Headings and Text */
+.login-form h2 {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.login-form p {
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+/* Labels */
+.login-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #f0f0f0;
+}
+
+/* Inputs */
+.login-form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+}
+
+.login-form input::placeholder {
+  color: #ddd;
+}
+
+/* Button */
+.login-form button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #d2b48c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #b88a5a;
+}
+
+/* Extra Links */
+.extra-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-links a {
+  font-size: 0.85rem;
+  color: #ffe4c4;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.extra-links a:hover {
+  color: #ffffff;
+}
